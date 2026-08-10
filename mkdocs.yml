@@ -64,15 +64,19 @@ markdown_extensions:
   - toc:
       permalink: true
 
-# Extra CSS & JS (Dynamic MathJax support)
+# Extra CSS & JS
+extra_css:
+  - stylesheets/custom.css
+
 extra_javascript:
   - javascripts/mathjax.js
+  - javascripts/resizable-sidebar.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Navigation Structure
 nav:
-  - Trang chủ: index.md
+  - Trang chủ: lo-trinh.md
   - 1. Kiến Thức Cơ Bản:
       - Cú pháp & Biến: 01-co-ban/01-cu-phap-bien.md
       - Toán tử & Nhập xuất: 01-co-ban/02-toan-tu-nhap-xuat.md
@@ -87,6 +91,10 @@ nav:
       - Xử lý File & Ngoại lệ: 04-file-ngoai-le/01-file-ngoai-le.md
   - 4. Ghi Chú:
       - Thứ tự thực thi trong Python: 06-ghi-chu/01-thu-tu-thuc-thi.md
+      - Khởi tạo List nhanh: 06-ghi-chu/02-khoi-tao-list.md
+      - Khả biến và Bất biến: 06-ghi-chu/03-mutable-immutable.md
+      - Phạm vi dùng biến (Scope): 06-ghi-chu/04-pham-vi-bien.md
+      - Đệ quy và Vòng lặp: 06-ghi-chu/05-de-quy-va-vong-lap.md
   - 5. Giải Thuật:
       - Sắp xếp nổi bọt: 05-giai-thuat/01-sap-xep-noi-bot.md
       - Tìm kiếm nhị phân: 05-giai-thuat/02-tim-kiem-nhi-phan.md
