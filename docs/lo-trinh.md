@@ -14,7 +14,7 @@ Chào mừng bạn đến với trang tài liệu và ôn tập kiến thức ng
 
 ## 📚 Lộ Trình Học & Ôn Tập
 
-*(Bạn sẽ bổ sung sau...)*
+*updating*
 
 ---
 
