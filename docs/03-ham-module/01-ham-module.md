@@ -23,7 +23,14 @@ ket_qua = cong(5, 3)
 print(ket_qua)  # Output: 8
 ```
 
-### 1.3 Tham số mặc định (Default Parameters)
+### 1.3 Câu lệnh `pass`
+Lệnh `pass` được dùng như một "chỗ giữ chỗ" (placeholder) khi bạn muốn khai báo một hàm nhưng chưa muốn viết code cho nó ngay. Nó giúp tránh lỗi cú pháp (SyntaxError).
+```python
+def ham_chua_hoan_thanh():
+    pass  # Sẽ viết code vào đây sau
+```
+
+### 1.4 Tham số mặc định (Default Parameters)
 Bạn có thể gán giá trị mặc định cho tham số.
 ```python
 def gioi_thieu(ten, tuoi=18):
@@ -33,7 +40,7 @@ gioi_thieu("Bob")        # Output: Tôi là Bob, 18 tuổi.
 gioi_thieu("Bob", 20)    # Output: Tôi là Bob, 20 tuổi.
 ```
 
-### 1.4 Biến Args và Kwargs
+### 1.5 Biến Args và Kwargs
 - `*args`: Nhận nhiều tham số dưới dạng Tuple.
 - `**kwargs`: Nhận nhiều tham số có tên dưới dạng Dictionary.
 

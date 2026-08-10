@@ -78,23 +78,24 @@ extra_javascript:
 nav:
   - Trang chủ: lo-trinh.md
   - 1. Kiến Thức Cơ Bản:
-      - Cú pháp & Biến: 01-co-ban/01-cu-phap-bien.md
-      - Toán tử & Nhập xuất: 01-co-ban/02-toan-tu-nhap-xuat.md
-      - Cấu trúc điều khiển: 01-co-ban/03-cau-truc-dieu-khien.md
-      - Xử lý chuỗi: 01-co-ban/04-xu-ly-chuoi.md
+      - 1.1. Cú pháp & Biến: 01-co-ban/01-cu-phap-bien.md
+      - 1.2. Toán tử & Nhập xuất: 01-co-ban/02-toan-tu-nhap-xuat.md
+      - 1.3. Cấu trúc điều khiển: 01-co-ban/03-cau-truc-dieu-khien.md
+      - 1.4. Xử lý chuỗi: 01-co-ban/04-xu-ly-chuoi.md
   - 2. Cấu Trúc Dữ Liệu:
-      - List & Tuple: 02-cau-truc-du-lieu/01-list-tuple.md
-      - Dictionary & Set: 02-cau-truc-du-lieu/02-dict-set.md
+      - 2.1. List & Tuple: 02-cau-truc-du-lieu/01-list-tuple.md
+      - 2.2. Dictionary & Set: 02-cau-truc-du-lieu/02-dict-set.md
   - 3. Nâng Cao & Dự Án:
-      - Hàm & Module: 03-ham-module/01-ham-module.md
-      - Lập trình OOP: 05-oop/01-oop-co-ban.md
-      - Xử lý File & Ngoại lệ: 04-file-ngoai-le/01-file-ngoai-le.md
+      - 3.1. Hàm & Module: 03-ham-module/01-ham-module.md
+      - 3.2. Lập trình OOP: 05-oop/01-oop-co-ban.md
+      - 3.3. Xử lý File & Ngoại lệ: 04-file-ngoai-le/01-file-ngoai-le.md
   - 4. Ghi Chú:
-      - Thứ tự thực thi trong Python: 06-ghi-chu/01-thu-tu-thuc-thi.md
-      - Khởi tạo List nhanh: 06-ghi-chu/02-khoi-tao-list.md
-      - Khả biến và Bất biến: 06-ghi-chu/03-mutable-immutable.md
-      - Phạm vi dùng biến (Scope): 06-ghi-chu/04-pham-vi-bien.md
-      - Đệ quy và Vòng lặp: 06-ghi-chu/05-de-quy-va-vong-lap.md
+      - 4.1. Thứ tự thực thi trong Python: 06-ghi-chu/01-thu-tu-thuc-thi.md
+      - 4.2. Khởi tạo List nhanh: 06-ghi-chu/02-khoi-tao-list.md
+      - 4.3. Khả biến và Bất biến: 06-ghi-chu/03-mutable-immutable.md
+      - 4.4. Phạm vi dùng biến (Scope): 06-ghi-chu/04-pham-vi-bien.md
+      - 4.5. Đệ quy và Vòng lặp: 06-ghi-chu/05-de-quy-va-vong-lap.md
+      - 4.6. Vòng lặp For vs While: 06-ghi-chu/06-for-vs-while.md
   - 5. Giải Thuật:
-      - Sắp xếp nổi bọt: 05-giai-thuat/01-sap-xep-noi-bot.md
-      - Tìm kiếm nhị phân: 05-giai-thuat/02-tim-kiem-nhi-phan.md
+      - 5.1. Sắp xếp nổi bọt: 05-giai-thuat/01-sap-xep-noi-bot.md
+      - 5.2. Tìm kiếm nhị phân: 05-giai-thuat/02-tim-kiem-nhi-phan.md
