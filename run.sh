@@ -10,12 +10,12 @@ COMMAND=$1
 
 case "$COMMAND" in
     build)
-        echo "Đang build tài liệu với MkDocs..."
-        mkdocs build
+        echo "Đang build tài liệu với MkDocs qua nix-shell..."
+        nix-shell --run "mkdocs build"
         ;;
     host)
-        echo "Đang chạy local server với MkDocs..."
-        mkdocs serve
+        echo "Đang chạy local server với MkDocs qua nix-shell..."
+        nix-shell --run "mkdocs serve"
         ;;
     *)
         echo "Lỗi: Lệnh '$COMMAND' không hợp lệ."
