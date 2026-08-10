@@ -24,13 +24,13 @@ Chào mừng bạn đến với trang tài liệu và ôn tập kiến thức ng
 
     - [x] **[List & Tuple](02-cau-truc-du-lieu/01-list-tuple.md)**: Mảng động List, bộ giá trị bất biến Tuple, Kỹ thuật Cắt lát (Slicing) & List Comprehension.
     - [ ] **Dictionary & Set**: *(Bạn có thể tự bổ sung)*
-    - [ ] **Xử lý Chuỗi (String)**: *(Bạn có thể tự bổ sung)*
+    - [x] **[Xử lý Chuỗi (String)](01-co-ban/04-xu-ly-chuoi.md)**: Khai báo, thao tác cắt ghép, f-string và các hàm cơ bản.
 
 === "3. Nâng Cao & Dự Án"
 
-    - [ ] **Hàm & Module**: Hàm def, lambda, scope, thư viện chuẩn.
+    - [x] **[Hàm & Module](03-ham-module/01-ham-module.md)**: Hàm def, *args, **kwargs, import thư viện chuẩn.
     - [ ] **Lập trình hướng đối tượng (OOP)**: Class, Object, Đóng gói, Kế thừa, Đa hình.
-    - [ ] **Xử lý File & Ngoại lệ**: Đọc/Ghi file, Try-Except-Finally.
+    - [x] **[Xử lý File & Ngoại lệ](04-file-ngoai-le/01-file-ngoai-le.md)**: Đọc/Ghi file (với with open), Try-Except-Finally.
 
 ---
 
