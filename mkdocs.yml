@@ -1,0 +1,81 @@
+site_name: Ôn Tập Python
+site_description: Trang web kiến thức và tài liệu ôn tập ngôn ngữ lập trình Python
+site_author: Python Learner
+
+# Theme settings
+theme:
+  name: material
+  language: vi
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Chuyển sang giao diện Tối
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Chuyển sang giao diện Sáng
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+
+# Plugins
+plugins:
+  - search
+
+# Markdown Extensions
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - admonition
+  - toc:
+      permalink: true
+
+# Extra CSS & JS (Dynamic MathJax support)
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Navigation Structure
+nav:
+  - Trang chủ: index.md
+  - 1. Kiến thức cơ bản:
+      - Cú pháp & Biến: 01-co-ban/01-cu-phap-bien.md
+      - Toán tử & Nhập xuất: 01-co-ban/02-toan-tu-nhap-xuat.md
+      - Cấu trúc điều khiển: 01-co-ban/03-cau-truc-dieu-khien.md
+  - 2. Cấu trúc dữ liệu:
+      - List & Tuple: 02-cau-truc-du-lieu/01-list-tuple.md
