@@ -29,7 +29,7 @@ Chào mừng bạn đến với trang tài liệu và ôn tập kiến thức ng
 === "3. Nâng Cao & Dự Án"
 
     - [x] **[Hàm & Module](03-ham-module/01-ham-module.md)**: Hàm def, *args, **kwargs, import thư viện chuẩn.
-    - [ ] **Lập trình hướng đối tượng (OOP)**: Class, Object, Đóng gói, Kế thừa, Đa hình.
+    - [x] **[Lập trình hướng đối tượng (OOP)](05-oop/01-oop-co-ban.md)**: Class, Object, Đóng gói, Kế thừa, Đa hình.
     - [x] **[Xử lý File & Ngoại lệ](04-file-ngoai-le/01-file-ngoai-le.md)**: Đọc/Ghi file (với with open), Try-Except-Finally.
 
 ---
