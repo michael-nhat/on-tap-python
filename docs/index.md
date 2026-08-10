@@ -23,7 +23,7 @@ Chào mừng bạn đến với trang tài liệu và ôn tập kiến thức ng
 === "2. Cấu Trúc Dữ Liệu"
 
     - [x] **[List & Tuple](02-cau-truc-du-lieu/01-list-tuple.md)**: Mảng động List, bộ giá trị bất biến Tuple, Kỹ thuật Cắt lát (Slicing) & List Comprehension.
-    - [ ] **Dictionary & Set**: *(Bạn có thể tự bổ sung)*
+    - [x] **[Dictionary & Set](02-cau-truc-du-lieu/02-dict-set.md)**: Khai báo, truy xuất giá trị (Key-Value) và các phép toán tập hợp Set.
     - [x] **[Xử lý Chuỗi (String)](01-co-ban/04-xu-ly-chuoi.md)**: Khai báo, thao tác cắt ghép, f-string và các hàm cơ bản.
 
 === "3. Nâng Cao & Dự Án"
