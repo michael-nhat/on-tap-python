@@ -19,7 +19,27 @@ else:
 
 ---
 
-## 2. Vòng Lặp `for`
+## 2. Câu Lệnh `match - case` (Switch - Case)
+
+Từ Python 3.10, Python đã hỗ trợ cấu trúc `match - case` tương tự như `switch - case` trong các ngôn ngữ khác (C++, Java, Javascript...). Cấu trúc này giúp mã dễ đọc hơn khi kiểm tra giá trị của một biến.
+
+```python
+command = "start"
+
+match command:
+    case "start":
+        print("Bắt đầu trò chơi.")
+    case "stop":
+        print("Kết thúc trò chơi.")
+    case "pause":
+        print("Tạm dừng.")
+    case _:
+        print("Lệnh không hợp lệ.")  # _ đóng vai trò như default
+```
+
+---
+
+## 3. Vòng Lặp `for`
 
 Vòng lặp `for` dùng để duyệt qua các phần tử trong một chuỗi, mảng, danh sách hoặc dùng với hàm `range()`.
 
@@ -37,7 +57,7 @@ for i in range(2, 11, 2):
 
 ---
 
-## 3. Vòng Lặp `while`
+## 4. Vòng Lặp `while`
 
 Vòng lặp `while` lặp lại khối lệnh khi điều kiện còn đúng (`True`).
 
@@ -50,7 +70,7 @@ while count <= 5:
 
 ---
 
-## 4. Câu Lệnh Điều Điều Hướng Vòng Lặp
+## 5. Câu Lệnh Điều Điều Hướng Vòng Lặp
 
 - `break`: Thoát khỏi vòng lặp ngay lập tức.
 - `continue`: Bỏ qua phần còn lại của vòng lặp hiện tại và chuyển sang lần lặp tiếp theo.
