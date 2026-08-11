@@ -76,7 +76,7 @@ extra_javascript:
 
 # Navigation Structure
 nav:
-  - Trang chủ: lo-trinh.md
+  - Trang chủ: index.md
   - 1. Kiến Thức Cơ Bản:
       - 1.1. Cú pháp & Biến: 01-co-ban/01-cu-phap-bien.md
       - 1.2. Toán tử & Nhập xuất: 01-co-ban/02-toan-tu-nhap-xuat.md
