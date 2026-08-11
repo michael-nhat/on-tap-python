@@ -15,7 +15,7 @@ case "$COMMAND" in
         ;;
     host)
         echo "Đang chạy local server với MkDocs qua nix-shell..."
-        nix-shell --run "mkdocs serve"
+        nix-shell --run "mkdocs serve -a 0.0.0.0:8000"
         ;;
     *)
         echo "Lỗi: Lệnh '$COMMAND' không hợp lệ."
