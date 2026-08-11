@@ -7,14 +7,16 @@
     padding-bottom: 0.3rem !important;
 }
 
-/* Định dạng cho thanh kéo (Resizer) */
-.md-sidebar--primary {
-    position: relative;
-    border-right: 2px solid rgba(0, 0, 0, 0.1); /* Ranh giới có thể nhìn thấy luôn */
-}
+/* Định dạng cho thanh kéo (Resizer) - Chỉ áp dụng trên Desktop */
+@media screen and (min-width: 1220px) {
+    .md-sidebar--primary {
+        position: relative;
+        border-right: 2px solid rgba(0, 0, 0, 0.1); /* Ranh giới có thể nhìn thấy luôn */
+    }
 
-[data-md-color-scheme="slate"] .md-sidebar--primary {
-    border-right: 2px solid rgba(255, 255, 255, 0.1);
+    [data-md-color-scheme="slate"] .md-sidebar--primary {
+        border-right: 2px solid rgba(255, 255, 255, 0.1);
+    }
 }
 
 /* Khu vực bắt chuột để kéo (ẩn đi, không đổi trỏ chuột) */

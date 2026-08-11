@@ -16,6 +16,8 @@ case "$COMMAND" in
     host)
         echo "Đang chạy local server với MkDocs qua nix-shell..."
         nix-shell --run "mkdocs serve -a 0.0.0.0:8000"
+        echo "sudo iptables -I INPUT 1 -p tcp --dport 8000 -j ACCEPT"
+        echo "sudo iptables -I INPUT 1 -p tcp --dport 8000 -j ACCEPT"
         ;;
     *)
         echo "Lỗi: Lệnh '$COMMAND' không hợp lệ."
