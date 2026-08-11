@@ -90,14 +90,14 @@ nav:
       - 3.2. Lập trình OOP: 05-oop/01-oop-co-ban.md
       - 3.3. Xử lý File & Ngoại lệ: 04-file-ngoai-le/01-file-ngoai-le.md
   - 4. Ghi Chú:
-      - 4.1. Thứ tự thực thi trong Python: 06-ghi-chu/01-thu-tu-thuc-thi.md
-      - 4.2. Khởi tạo List nhanh: 06-ghi-chu/02-khoi-tao-list.md
-      - 4.3. Khả biến và Bất biến: 06-ghi-chu/03-mutable-immutable.md
+      - 4.1. Mô tả chương trình: 06-ghi-chu/01-mo-ta-chuong-trinh.md
+      - 4.2. REPL vs Script: 06-ghi-chu/02-repl-vs-script.md
+      - 4.3. Thứ tự thực thi trong Python: 06-ghi-chu/03-thu-tu-thuc-thi.md
       - 4.4. Phạm vi dùng biến (Scope): 06-ghi-chu/04-pham-vi-bien.md
-      - 4.5. Đệ quy và Vòng lặp: 06-ghi-chu/05-de-quy-va-vong-lap.md
+      - 4.5. Khởi tạo List nhanh: 06-ghi-chu/05-khoi-tao-list.md
       - 4.6. Vòng lặp For vs While: 06-ghi-chu/06-for-vs-while.md
-      - 4.7. REPL vs Script: 06-ghi-chu/07-repl-vs-script.md
-      - 4.8. Mô tả chương trình: 06-ghi-chu/08-mo-ta-chuong-trinh.md
+      - 4.7. Khả biến và Bất biến: 06-ghi-chu/07-mutable-immutable.md
+      - 4.8. Đệ quy và Vòng lặp: 06-ghi-chu/08-de-quy-va-vong-lap.md
   - 5. Giải Thuật:
       - 5.1. Sắp xếp nổi bọt: 05-giai-thuat/01-sap-xep-noi-bot.md
       - 5.2. Tìm kiếm nhị phân: 05-giai-thuat/02-tim-kiem-nhi-phan.md
