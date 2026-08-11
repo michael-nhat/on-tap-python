@@ -96,6 +96,7 @@ nav:
       - 4.4. Phạm vi dùng biến (Scope): 06-ghi-chu/04-pham-vi-bien.md
       - 4.5. Đệ quy và Vòng lặp: 06-ghi-chu/05-de-quy-va-vong-lap.md
       - 4.6. Vòng lặp For vs While: 06-ghi-chu/06-for-vs-while.md
+      - 4.7. REPL vs Script: 06-ghi-chu/07-repl-vs-script.md
   - 5. Giải Thuật:
       - 5.1. Sắp xếp nổi bọt: 05-giai-thuat/01-sap-xep-noi-bot.md
       - 5.2. Tìm kiếm nhị phân: 05-giai-thuat/02-tim-kiem-nhi-phan.md
