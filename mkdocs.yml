@@ -81,6 +81,7 @@ nav:
       - 1.2. Toán tử & Nhập xuất: 01-co-ban/02-toan-tu-nhap-xuat.md
       - 1.3. Cấu trúc điều khiển: 01-co-ban/03-cau-truc-dieu-khien.md
       - 1.4. Xử lý chuỗi: 01-co-ban/04-xu-ly-chuoi.md
+      - 1.5. Minh họa chương trình bằng sơ đồ khối: 01-co-ban/05-minh-hoa-chuong-trinh-bang-so-do-khoi.md
   - 2. Cấu Trúc Dữ Liệu:
       - 2.1. List & Tuple: 02-cau-truc-du-lieu/01-list-tuple.md
       - 2.2. Dictionary & Set: 02-cau-truc-du-lieu/02-dict-set.md
@@ -104,3 +105,8 @@ nav:
       - 6.1. Gõ 10 ngón cho LTV: 07-bo-tro/01-go-10-ngon.md
   - 7. Đọc Thêm:
       - 7.1. Lịch sử các ngôn ngữ: 08-doc-them/01-lich-su-ngon-ngu-lap-trinh.md
+      - 7.2. Lập trình vs Toán học: 08-doc-them/02-lap-trinh-vs-toan-hoc.md
+      - 7.3. Quản lý phiên bản mã nguồn & Git: 08-doc-them/03-gioi-thieu-git.md
+      - 7.4. Shell và dòng lệnh cơ bản: 08-doc-them/04-gioi-thieu-shell.md
+      - 7.5. Quản lý dự án & Đóng gói (pip, npm): 08-doc-them/05-quan-ly-du-an-pip-npm.md
+      - 7.6. Make và CMake: 08-doc-them/06-gioi-thieu-make-cmake.md
