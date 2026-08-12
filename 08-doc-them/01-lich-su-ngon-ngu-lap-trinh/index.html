@@ -1,0 +1,2019 @@
+
+<!doctype html>
+<html lang="vi" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Trang web kiến thức và tài liệu ôn tập ngôn ngữ lập trình Python">
+      
+      
+        <meta name="author" content="Python Learner">
+      
+      
+      
+        <link rel="prev" href="../../07-bo-tro/01-go-10-ngon/">
+      
+      
+        <link rel="next" href="../02-lap-trinh-vs-toan-hoc/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>7.1. Lịch sử các ngôn ngữ - Ôn Tập Python</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#lich-su-cac-ngon-ngu-lap-trinh-tren-the-gioi" class="md-skip">
+          Bỏ qua
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Đầu trang">
+    <a href="../.." title="Ôn Tập Python" class="md-header__button md-logo" aria-label="Ôn Tập Python" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ôn Tập Python
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              7.1. Lịch sử các ngôn ngữ
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Chuyển sang giao diện Tối"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Chuyển sang giao diện Tối" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="cyan"  aria-label="Chuyển sang giao diện Sáng"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Chuyển sang giao diện Sáng" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Tìm kiếm" placeholder="Tìm kiếm" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Tìm kiếm">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Xoá" aria-label="Xoá" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Thanh điều hướng" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Ôn Tập Python" class="md-nav__button md-logo" aria-label="Ôn Tập Python" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Ôn Tập Python
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Trang chủ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Kiến Thức Cơ Bản
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Kiến Thức Cơ Bản
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-co-ban/01-cu-phap-bien/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.1. Cú pháp & Biến
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-co-ban/02-toan-tu-nhap-xuat/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.2. Toán tử & Nhập xuất
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-co-ban/03-cau-truc-dieu-khien/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.3. Cấu trúc điều khiển
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-co-ban/04-xu-ly-chuoi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.4. Xử lý chuỗi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-co-ban/05-minh-hoa-chuong-trinh-bang-so-do-khoi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1.5. Minh họa chương trình bằng sơ đồ khối
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Cấu Trúc Dữ Liệu
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. Cấu Trúc Dữ Liệu
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-cau-truc-du-lieu/01-list-tuple/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.1. List & Tuple
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-cau-truc-du-lieu/02-dict-set/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2.2. Dictionary & Set
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Nâng Cao & Dự Án
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Nâng Cao & Dự Án
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-ham-module/01-ham-module/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.1. Hàm & Module
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-oop/01-oop-co-ban/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.2. Lập trình OOP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-file-ngoai-le/01-file-ngoai-le/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3.3. Xử lý File & Ngoại lệ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Ghi Chú
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. Ghi Chú
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-ghi-chu/01-mo-ta-chuong-trinh/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.1. Mô tả chương trình
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-ghi-chu/02-repl-vs-script/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.2. REPL vs Script
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-ghi-chu/03-thu-tu-thuc-thi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.3. Thứ tự thực thi trong Python
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-ghi-chu/04-pham-vi-bien/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.4. Phạm vi dùng biến (Scope)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-ghi-chu/05-khoi-tao-list/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.5. Khởi tạo List nhanh
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-ghi-chu/06-for-vs-while/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.6. Vòng lặp For vs While
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-ghi-chu/07-mutable-immutable/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.7. Khả biến và Bất biến
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-ghi-chu/08-de-quy-va-vong-lap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.8. Đệ quy và Vòng lặp
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-ghi-chu/09-f-string/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4.9. Bản chất của f-string
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Giải Thuật
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    5. Giải Thuật
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-giai-thuat/01-sap-xep-noi-bot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5.1. Sắp xếp nổi bọt
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-giai-thuat/02-tim-kiem-nhi-phan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5.2. Tìm kiếm nhị phân
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Bổ Trợ
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    6. Bổ Trợ
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-bo-tro/01-go-10-ngon/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6.1. Gõ 10 ngón cho LTV
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Đọc Thêm
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    7. Đọc Thêm
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.1. Lịch sử các ngôn ngữ
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.1. Lịch sử các ngôn ngữ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-fortran-1957-ke-tien-phong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Fortran (1957) - Kẻ tiên phong
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-c-1972-coi-nguon-cua-ngon-ngu-hien-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. C (1972) - Cội nguồn của ngôn ngữ hiện đại
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-c-1985-suc-manh-cua-huong-oi-tuong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. C++ (1985) - Sức mạnh của Hướng đối tượng
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-python-1991-ve-ep-cua-su-toi-gian" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Python (1991) - Vẻ đẹp của sự tối giản
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-java-1995-viet-mot-lan-chay-moi-noi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Java (1995) - Viết một lần, chạy mọi nơi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-javascript-1995-ke-thong-tri-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. JavaScript (1995) - Kẻ thống trị Web
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-go-golang-2009-ngon-ngu-cua-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Go / Golang (2009) - Ngôn ngữ của Cloud
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-rust-2015-tuong-lai-cua-lap-trinh-he-thong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Rust (2015) - Tương lai của lập trình hệ thống
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-danh-sach-tong-hop-cac-ngon-ngu-lap-trinh-khac-theo-dong-lich-su" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Danh sách tổng hợp các ngôn ngữ lập trình khác theo dòng lịch sử
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../02-lap-trinh-vs-toan-hoc/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.2. Lập trình vs Toán học
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../03-gioi-thieu-git/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.3. Quản lý phiên bản mã nguồn & Git
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../04-gioi-thieu-shell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.4. Shell và dòng lệnh cơ bản
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../05-quan-ly-du-an-pip-npm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.5. Quản lý dự án & Đóng gói (pip, npm)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../06-gioi-thieu-make-cmake/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7.6. Make và CMake
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Mục lục">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Mục lục
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-fortran-1957-ke-tien-phong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Fortran (1957) - Kẻ tiên phong
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-c-1972-coi-nguon-cua-ngon-ngu-hien-ai" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. C (1972) - Cội nguồn của ngôn ngữ hiện đại
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-c-1985-suc-manh-cua-huong-oi-tuong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. C++ (1985) - Sức mạnh của Hướng đối tượng
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-python-1991-ve-ep-cua-su-toi-gian" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Python (1991) - Vẻ đẹp của sự tối giản
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-java-1995-viet-mot-lan-chay-moi-noi" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Java (1995) - Viết một lần, chạy mọi nơi
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-javascript-1995-ke-thong-tri-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. JavaScript (1995) - Kẻ thống trị Web
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-go-golang-2009-ngon-ngu-cua-cloud" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Go / Golang (2009) - Ngôn ngữ của Cloud
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-rust-2015-tuong-lai-cua-lap-trinh-he-thong" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Rust (2015) - Tương lai của lập trình hệ thống
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-danh-sach-tong-hop-cac-ngon-ngu-lap-trinh-khac-theo-dong-lich-su" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Danh sách tổng hợp các ngôn ngữ lập trình khác theo dòng lịch sử
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="lich-su-cac-ngon-ngu-lap-trinh-tren-the-gioi">Lịch sử các ngôn ngữ lập trình trên thế giới<a class="headerlink" href="#lich-su-cac-ngon-ngu-lap-trinh-tren-the-gioi" title="Permanent link">&para;</a></h1>
+<p>Thế giới lập trình đã trải qua nhiều thập kỷ phát triển, đi từ những hệ thống máy móc khổng lồ với ngôn ngữ cấp thấp đến những ngôn ngữ hiện đại, thanh lịch và mạnh mẽ. Dưới đây là bức tranh toàn cảnh về những ngôn ngữ lập trình có tầm ảnh hưởng lớn nhất.</p>
+<hr />
+<h2 id="1-fortran-1957-ke-tien-phong">1. Fortran (1957) - Kẻ tiên phong<a class="headerlink" href="#1-fortran-1957-ke-tien-phong" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Tác giả:</strong> John Backus tại IBM.</li>
+<li><strong>Hoàn cảnh ra đời:</strong> Được tạo ra để tính toán khoa học và kỹ thuật, thay thế cho việc lập trình bằng hợp ngữ (assembly) vốn rất dễ mắc lỗi và khó đọc.</li>
+<li><strong>Lĩnh vực:</strong> Tính toán khoa học, siêu máy tính (Supercomputers), mô phỏng vật lý.</li>
+<li><strong>Phong cách (Paradigm):</strong> Lệnh (Imperative), Thủ tục (Procedural).</li>
+<li><strong>Ưu / Nhược điểm:</strong> <ul>
+<li><em>Ưu điểm:</em> Cực kỳ nhanh trong các phép tính toán học.</li>
+<li><em>Nhược điểm:</em> Khó học, không phù hợp cho phát triển phần mềm đa dụng.</li>
+</ul>
+</li>
+<li><strong>Đánh giá:</strong><ul>
+<li>Tốc độ: ⭐⭐⭐⭐⭐</li>
+<li>Dễ học: ⭐⭐</li>
+<li>Phổ biến (hiện nay): ⭐⭐</li>
+<li>Thanh lịch: ⭐</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="2-c-1972-coi-nguon-cua-ngon-ngu-hien-ai">2. C (1972) - Cội nguồn của ngôn ngữ hiện đại<a class="headerlink" href="#2-c-1972-coi-nguon-cua-ngon-ngu-hien-ai" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Tác giả:</strong> Dennis Ritchie tại Bell Labs.</li>
+<li><strong>Hoàn cảnh ra đời:</strong> Được phát triển cùng với hệ điều hành UNIX. C được thiết kế để biên dịch thẳng ra mã máy, thao tác trực tiếp với bộ nhớ nhưng vẫn giữ được cú pháp dễ đọc hơn Assembly.</li>
+<li><strong>Lĩnh vực:</strong> Lập trình hệ thống (Hệ điều hành), Embedded Systems (Nhúng), IoT.</li>
+<li><strong>Phong cách:</strong> Thủ tục (Procedural).</li>
+<li><strong>Ưu / Nhược điểm:</strong> <ul>
+<li><em>Ưu điểm:</em> Tốc độ cực nhanh, quyền kiểm soát bộ nhớ tuyệt đối.</li>
+<li><em>Nhược điểm:</em> Phải quản lý bộ nhớ thủ công (dễ bị memory leak), thiếu các tính năng bảo mật bộ nhớ.</li>
+</ul>
+</li>
+<li><strong>Đánh giá:</strong><ul>
+<li>Tốc độ: ⭐⭐⭐⭐⭐</li>
+<li>Dễ học: ⭐⭐⭐</li>
+<li>Phổ biến: ⭐⭐⭐⭐⭐</li>
+<li>Thanh lịch: ⭐⭐⭐</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="3-c-1985-suc-manh-cua-huong-oi-tuong">3. C++ (1985) - Sức mạnh của Hướng đối tượng<a class="headerlink" href="#3-c-1985-suc-manh-cua-huong-oi-tuong" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Tác giả:</strong> Bjarne Stroustrup.</li>
+<li><strong>Hoàn cảnh ra đời:</strong> Bjarne muốn thêm mô hình Hướng đối tượng (OOP) vào ngôn ngữ C để dễ quản lý các dự án phần mềm lớn, gọi là "C with Classes".</li>
+<li><strong>Lĩnh vực:</strong> Game Engines (Unreal), Ứng dụng Desktop hiệu năng cao, Trình duyệt web.</li>
+<li><strong>Phong cách:</strong> Đa mô hình (Procedural, Object-Oriented, Generic).</li>
+<li><strong>Ưu / Nhược điểm:</strong> <ul>
+<li><em>Ưu điểm:</em> Rất nhanh và hỗ trợ đa mô hình lập trình mạnh mẽ.</li>
+<li><em>Nhược điểm:</em> Cú pháp cực kỳ phức tạp, thời gian biên dịch lâu, đường cong học tập rất dốc.</li>
+</ul>
+</li>
+<li><strong>Đánh giá:</strong><ul>
+<li>Tốc độ: ⭐⭐⭐⭐⭐</li>
+<li>Dễ học: ⭐</li>
+<li>Phổ biến: ⭐⭐⭐⭐⭐</li>
+<li>Thanh lịch: ⭐⭐</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="4-python-1991-ve-ep-cua-su-toi-gian">4. Python (1991) - Vẻ đẹp của sự tối giản<a class="headerlink" href="#4-python-1991-ve-ep-cua-su-toi-gian" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Tác giả:</strong> Guido van Rossum.</li>
+<li><strong>Hoàn cảnh ra đời:</strong> Được thiết kế trong kỳ nghỉ lễ Giáng sinh với triết lý mã nguồn phải dễ đọc và ngắn gọn, loại bỏ các dấu ngoặc nhọn <code>{}</code> và thay bằng thụt lề (indentation).</li>
+<li><strong>Lĩnh vực:</strong> Trí tuệ nhân tạo (AI/ML), Data Science, Web Backend, Scripting.</li>
+<li><strong>Phong cách:</strong> Đa mô hình (OOP, Functional, Procedural).</li>
+<li><strong>Ưu / Nhược điểm:</strong> <ul>
+<li><em>Ưu điểm:</em> Cú pháp như tiếng Anh, cộng đồng khổng lồ, thư viện AI vô đối.</li>
+<li><em>Nhược điểm:</em> Tốc độ thực thi chậm, tốn RAM do là ngôn ngữ thông dịch (Interpreted).</li>
+</ul>
+</li>
+<li><strong>Đánh giá:</strong><ul>
+<li>Tốc độ: ⭐⭐</li>
+<li>Dễ học: ⭐⭐⭐⭐⭐</li>
+<li>Phổ biến: ⭐⭐⭐⭐⭐</li>
+<li>Thanh lịch: ⭐⭐⭐⭐⭐</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="5-java-1995-viet-mot-lan-chay-moi-noi">5. Java (1995) - Viết một lần, chạy mọi nơi<a class="headerlink" href="#5-java-1995-viet-mot-lan-chay-moi-noi" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Tác giả:</strong> James Gosling tại Sun Microsystems.</li>
+<li><strong>Hoàn cảnh ra đời:</strong> Cần một ngôn ngữ để lập trình cho các thiết bị điện tử dân dụng, có khả năng chạy trên nhiều phần cứng khác nhau mà không cần biên dịch lại (nhờ JVM - Java Virtual Machine).</li>
+<li><strong>Lĩnh vực:</strong> Enterprise Backend, Android App, Hệ thống phân tán lớn.</li>
+<li><strong>Phong cách:</strong> Hướng đối tượng (OOP) thuần túy.</li>
+<li><strong>Ưu / Nhược điểm:</strong> <ul>
+<li><em>Ưu điểm:</em> Ổn định, hệ sinh thái khổng lồ, bảo mật tốt, tự động dọn rác (Garbage Collection).</li>
+<li><em>Nhược điểm:</em> Cú pháp dài dòng (Boilerplate code), tiêu tốn nhiều bộ nhớ.</li>
+</ul>
+</li>
+<li><strong>Đánh giá:</strong><ul>
+<li>Tốc độ: ⭐⭐⭐</li>
+<li>Dễ học: ⭐⭐⭐</li>
+<li>Phổ biến: ⭐⭐⭐⭐⭐</li>
+<li>Thanh lịch: ⭐⭐⭐</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="6-javascript-1995-ke-thong-tri-web">6. JavaScript (1995) - Kẻ thống trị Web<a class="headerlink" href="#6-javascript-1995-ke-thong-tri-web" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Tác giả:</strong> Brendan Eich.</li>
+<li><strong>Hoàn cảnh ra đời:</strong> Được viết ra chỉ trong 10 ngày để thêm tính tương tác (nhấn nút, pop-up) cho trình duyệt web Netscape.</li>
+<li><strong>Lĩnh vực:</strong> Frontend Web, Backend Web (Node.js), Mobile App (React Native).</li>
+<li><strong>Phong cách:</strong> Đa mô hình (Event-driven, Functional, Prototype-based).</li>
+<li><strong>Ưu / Nhược điểm:</strong> <ul>
+<li><em>Ưu điểm:</em> Là ngôn ngữ duy nhất chạy mượt trên mọi trình duyệt, dễ tiếp cận.</li>
+<li><em>Nhược điểm:</em> Thiết kế vội vàng lúc sơ khai để lại nhiều "bẫy" (như <code>==</code> vs <code>===</code>), hệ sinh thái đôi khi quá phức tạp.</li>
+</ul>
+</li>
+<li><strong>Đánh giá:</strong><ul>
+<li>Tốc độ: ⭐⭐⭐⭐ (Nhờ V8 Engine)</li>
+<li>Dễ học: ⭐⭐⭐⭐</li>
+<li>Phổ biến: ⭐⭐⭐⭐⭐ (Vô đối)</li>
+<li>Thanh lịch: ⭐⭐⭐</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="7-go-golang-2009-ngon-ngu-cua-cloud">7. Go / Golang (2009) - Ngôn ngữ của Cloud<a class="headerlink" href="#7-go-golang-2009-ngon-ngu-cua-cloud" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Tác giả:</strong> Robert Griesemer, Rob Pike, Ken Thompson tại Google.</li>
+<li><strong>Hoàn cảnh ra đời:</strong> Google cần một ngôn ngữ kết hợp tốc độ của C++ nhưng phải dễ code như Python, đặc biệt là phải xử lý đa luồng (Concurrency) cực tốt cho hệ thống máy chủ.</li>
+<li><strong>Lĩnh vực:</strong> Cloud Computing (Docker, Kubernetes), Microservices, Network Tools.</li>
+<li><strong>Phong cách:</strong> Procedural, Concurrency-oriented.</li>
+<li><strong>Ưu / Nhược điểm:</strong> <ul>
+<li><em>Ưu điểm:</em> Cú pháp cực kỳ đơn giản, biên dịch nhanh, xử lý đa luồng (Goroutines) tuyệt vời.</li>
+<li><em>Nhược điểm:</em> Thiếu các tính năng OOP truyền thống, xử lý lỗi đôi khi bị lặp lại nhiều.</li>
+</ul>
+</li>
+<li><strong>Đánh giá:</strong><ul>
+<li>Tốc độ: ⭐⭐⭐⭐</li>
+<li>Dễ học: ⭐⭐⭐⭐</li>
+<li>Phổ biến: ⭐⭐⭐⭐</li>
+<li>Thanh lịch: ⭐⭐⭐⭐</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="8-rust-2015-tuong-lai-cua-lap-trinh-he-thong">8. Rust (2015) - Tương lai của lập trình hệ thống<a class="headerlink" href="#8-rust-2015-tuong-lai-cua-lap-trinh-he-thong" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>Tác giả:</strong> Graydon Hoare tại Mozilla.</li>
+<li><strong>Hoàn cảnh ra đời:</strong> Nhằm giải quyết bài toán muôn thuở của C/C++: "Làm sao để code vừa chạy nhanh nhất có thể, nhưng không bao giờ bị lỗi tràn bộ nhớ (Memory Safety)?". Rust sử dụng cơ chế Ownership thay vì Garbage Collector.</li>
+<li><strong>Lĩnh vực:</strong> Lập trình hệ thống, WebAssembly, Blockchain, Game Engines.</li>
+<li><strong>Phong cách:</strong> Đa mô hình (Functional, Concurrent).</li>
+<li><strong>Ưu / Nhược điểm:</strong> <ul>
+<li><em>Ưu điểm:</em> Hiệu năng ngang ngửa C++, an toàn bộ nhớ tuyệt đối, compiler cực kỳ thông minh và "có tâm".</li>
+<li><em>Nhược điểm:</em> Rất khó học (đặc biệt là cơ chế Borrow Checker), thời gian biên dịch lâu.</li>
+</ul>
+</li>
+<li><strong>Đánh giá:</strong><ul>
+<li>Tốc độ: ⭐⭐⭐⭐⭐</li>
+<li>Dễ học: ⭐</li>
+<li>Phổ biến: ⭐⭐⭐</li>
+<li>Thanh lịch: ⭐⭐⭐⭐⭐ (Theo khía cạnh thiết kế ngôn ngữ)</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h2 id="9-danh-sach-tong-hop-cac-ngon-ngu-lap-trinh-khac-theo-dong-lich-su">9. Danh sách tổng hợp các ngôn ngữ lập trình khác theo dòng lịch sử<a class="headerlink" href="#9-danh-sach-tong-hop-cac-ngon-ngu-lap-trinh-khac-theo-dong-lich-su" title="Permanent link">&para;</a></h2>
+<p>Ngoài những đại diện tiêu biểu ở trên, thế giới lập trình còn ghi nhận hàng loạt ngôn ngữ khác, mỗi ngôn ngữ đều đóng góp những viên gạch quan trọng vào sự tiến hóa của khoa học máy tính:</p>
+<ul>
+<li><strong>Plankalkül (1943):</strong> Ngôn ngữ lập trình bậc cao đầu tiên trên thế giới do Konrad Zuse thiết kế, nhưng mãi đến nhiều năm sau mới được công bố rộng rãi.</li>
+<li><strong>Lisp (1958):</strong> Kẻ tiên phong trong lĩnh vực Trí tuệ Nhân tạo thời kỳ đầu. Đặc trưng bởi cú pháp ngoặc đơn <code>( )</code> dày đặc. Có nhiều hậu duệ nổi tiếng như <strong>Common Lisp</strong>, <strong>Scheme</strong>, và <strong>Clojure</strong> (chạy trên máy ảo Java - JVM).</li>
+<li><strong>ALGOL (1958):</strong> Nền tảng của thuật toán (Algorithmic Language), ảnh hưởng sâu sắc đến cấu trúc khối (block structure) của C, Pascal và Java sau này.</li>
+<li><strong>COBOL (1959):</strong> Ngôn ngữ sinh ra dành cho nghiệp vụ doanh nghiệp và tài chính. Dù rất lâu đời nhưng hiện nay vẫn còn nhiều hệ thống ngân hàng cốt lõi trên thế giới chạy bằng COBOL.</li>
+<li><strong>BASIC (1964):</strong> (Beginner's All-purpose Symbolic Instruction Code). Ngôn ngữ mang lập trình đến với đại chúng, phổ biến trên các máy tính cá nhân đời đầu. Bill Gates và Paul Allen đã viết một trình thông dịch BASIC cho máy Altair 8800.</li>
+<li><strong>Logo (1967):</strong> Ngôn ngữ nổi tiếng với "rùa Logo" (Turtle graphics), dùng để dạy tư duy lập trình và hình học cho trẻ em.</li>
+<li><strong>Pascal (1970):</strong> Do Niklaus Wirth thiết kế nhằm mục đích giáo dục lập trình có cấu trúc (Structured Programming). Rất quen thuộc ở Việt Nam vào những năm 1990 - 2000 qua phần mềm Turbo Pascal.</li>
+<li><strong>Smalltalk (1972):</strong> "Cha đẻ" của mô hình Hướng đối tượng (OOP) thực thụ. Lần đầu tiên đưa ra khái niệm gửi tin nhắn (message passing) giữa các đối tượng thay vì gọi hàm.</li>
+<li><strong>Prolog (1972):</strong> Ngôn ngữ lập trình logic (Logic Programming), chủ yếu dùng trong AI, chứng minh định lý và tính toán ngôn ngữ tự nhiên.</li>
+<li><strong>SQL (1974):</strong> Ngôn ngữ truy vấn dữ liệu tiêu chuẩn không thể thay thế cho các hệ quản trị cơ sở dữ liệu quan hệ (RDBMS).</li>
+<li><strong>Ada (1980):</strong> Đặt theo tên Ada Lovelace (lập trình viên đầu tiên trong lịch sử). Được Bộ Quốc phòng Mỹ phát triển cho các hệ thống nhúng đòi hỏi độ an toàn cực cao (hàng không, vũ trụ, quân sự).</li>
+<li><strong>Objective-C (1984):</strong> Ngôn ngữ chính của Apple dùng để phát triển macOS và iOS trước khi Swift ra đời. Kết hợp giữa C và phong cách OOP của Smalltalk.</li>
+<li><strong>Erlang (1986):</strong> Được Ericsson phát triển cho hệ thống viễn thông. Nổi tiếng với khả năng chạy đồng thời (concurrency) tuyệt vời và độ tin cậy cực cao.</li>
+<li><strong>Perl (1987):</strong> "Băng dính của Internet" thời kỳ đầu. Cực kỳ mạnh mẽ trong việc xử lý chuỗi và biểu thức chính quy (Regex), nhưng cú pháp bị đánh giá là rất khó đọc.</li>
+<li><strong>Haskell (1990):</strong> Ngôn ngữ lập trình hàm thuần túy (Pure Functional Programming). Rất thanh lịch và mang đậm tính toán học, thay đổi hoàn toàn tư duy của lập trình viên về quản lý trạng thái.</li>
+<li><strong>Lua (1993):</strong> Ngôn ngữ kịch bản cực kỳ nhẹ và nhanh, thường được nhúng vào các chương trình lớn hoặc các Game Engine (như Roblox, World of Warcraft).</li>
+<li><strong>R (1993):</strong> Ngôn ngữ chuyên biệt cho thống kê, phân tích dữ liệu và vẽ biểu đồ.</li>
+<li><strong>Ruby (1995):</strong> Ra đời tại Nhật Bản bởi Yukihiro Matsumoto. Triết lý "làm cho lập trình viên hạnh phúc". Nổi tiếng với framework web Ruby on Rails.</li>
+<li><strong>PHP (1995):</strong> Bắt đầu chỉ là một công cụ tạo trang web cá nhân (Personal Home Page). Trở thành ngôn ngữ kịch bản máy chủ phổ biến nhất thế giới (đứng sau WordPress).</li>
+<li><strong>C# (2000):</strong> Được Microsoft tạo ra để cạnh tranh với Java, đi kèm với nền tảng .NET. Rất mạnh mẽ trong phần mềm doanh nghiệp, Desktop, và Game (Unity).</li>
+<li><strong>Scala (2004):</strong> Kết hợp giữa OOP và Functional Programming, chạy trên JVM. Rất mạnh trong xử lý Dữ liệu lớn (Big Data - tiêu biểu là Apache Spark).</li>
+<li><strong>F# (2005):</strong> Ngôn ngữ hàm (Functional) mạnh mẽ thuộc hệ sinh thái .NET của Microsoft.</li>
+<li><strong>Nim (2008):</strong> Biên dịch ra mã C/C++, mang tốc độ của C nhưng có cú pháp gọn gàng và thanh lịch như Python.</li>
+<li><strong>Elixir (2011):</strong> Chạy trên máy ảo Erlang (BEAM), mang cú pháp thân thiện của Ruby kết hợp với sức mạnh đa luồng của Erlang. Rất phổ biến cho ứng dụng thời gian thực (như Discord).</li>
+<li><strong>Kotlin (2011):</strong> "Java nhưng tốt hơn". Hiện là ngôn ngữ ưu tiên số 1 của Google để phát triển ứng dụng Android do cú pháp ngắn gọn và an toàn hơn Java.</li>
+<li><strong>Dart (2011):</strong> Phát triển bởi Google, bùng nổ nhờ framework Flutter dùng để viết ứng dụng đa nền tảng (Mobile, Web, Desktop) chỉ từ một mã nguồn.</li>
+<li><strong>TypeScript (2012):</strong> JavaScript có thêm kiểu dữ liệu tĩnh (Static Typing). Do Microsoft phát triển, khắc phục gần như toàn bộ nhược điểm của JS cho các dự án lớn và phức tạp.</li>
+<li><strong>Julia (2012):</strong> Ngôn ngữ sinh ra để tính toán khoa học, mang tốc độ biên dịch của C nhưng dễ viết như Python, được kỳ vọng sẽ ứng dụng mạnh trong Data Science và AI.</li>
+<li><strong>Swift (2014):</strong> Ngôn ngữ thay thế Objective-C của Apple. Hiện đại, an toàn, nhanh chóng và thân thiện hơn rất nhiều so với người tiền nhiệm.</li>
+<li><strong>Zig (2015):</strong> Ngôn ngữ lập trình hệ thống mới nhằm thay thế C. Tối giản hơn C++ và Rust, tập trung vào sự rõ ràng và khả năng tương tác mượt mà với mã C cũ.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Trở lại mục lục
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Phiên bản v1.0.0 (Cập nhật lần cuối 18:45 - 10/08/2026)
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.code.copy", "content.code.select", "content.code.annotate"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "\u0110\u00e3 sao ch\u00e9p", "clipboard.copy": "Sao ch\u00e9p v\u00e0o b\u1ed9 nh\u1edb t\u1ea1m", "search.result.more.one": "1 t\u1eeb kh\u00e1c trong trang", "search.result.more.other": "# t\u1eeb kh\u00e1c trong trang", "search.result.none": "Kh\u00f4ng t\u00ecm th\u1ea5y t\u00e0i li\u1ec7u li\u00ean quan", "search.result.one": "1 t\u00e0i li\u1ec7u li\u00ean quan", "search.result.other": "# t\u00e0i li\u1ec7u li\u00ean quan", "search.result.placeholder": "Nh\u1eadp \u0111\u1ec3 b\u1eaft \u0111\u1ea7u t\u00ecm ki\u1ebfm", "search.result.term.missing": "Kh\u00f4ng", "select.version": "Ch\u1ecdn phi\u00ean b\u1ea3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="../../javascripts/resizable-sidebar.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>

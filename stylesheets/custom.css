@@ -1,0 +1,31 @@
+/* Word wrap cho các link ở menu bên trái (khi bị thu hẹp) */
+.md-nav__link {
+    white-space: normal !important;
+    word-break: break-word;
+    line-height: 1.4 !important;
+    padding-top: 0.3rem !important;
+    padding-bottom: 0.3rem !important;
+}
+
+/* Định dạng cho thanh kéo (Resizer) - Chỉ áp dụng trên Desktop */
+@media screen and (min-width: 1220px) {
+    .md-sidebar--primary {
+        position: relative;
+        border-right: 2px solid rgba(0, 0, 0, 0.1); /* Ranh giới có thể nhìn thấy luôn */
+    }
+
+    [data-md-color-scheme="slate"] .md-sidebar--primary {
+        border-right: 2px solid rgba(255, 255, 255, 0.1);
+    }
+}
+
+/* Khu vực bắt chuột để kéo (ẩn đi, không đổi trỏ chuột) */
+.sidebar-resizer {
+    position: absolute;
+    top: 0;
+    right: -2px; /* Đặt đè lên đường viền */
+    bottom: 0;
+    width: 6px;
+    z-index: 100;
+    background-color: transparent;
+}
